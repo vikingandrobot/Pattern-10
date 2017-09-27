@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pattern 10</title>
+
+    <!-- UI CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Settings JS -->
+    <script type="text/javascript" src="settings.js"></script>
+  </head>
+
+  <body>
+    <!-- Canvas -->
+    <canvas id="canvas" width="1920" height="1080"></canvas>
+
+    <!-- Settings Box -->
+    <div class="settings">
+      <span>Line width :</span>
+      <br />
+      <input class="settings-line-width" type="range" value="5" max="30" min="1" step="1">
+      <br />
+      <span>Slash probability [%] :</span>
+      <br />
+      <input class="settings-slash-probability" type="range" value="50" max="100" min="0" step="1">
+      <br />
+      <span>Background color :</span>
+      <br />
+      <input class="settings-bg-color" type="text" name="bgcolor" placeholder="#XXXXXX" value="#000000">
+      <br />
+      <span>Line color :</span>
+      <br />
+      <input class="settings-line-color" type="text" name="linecolor" placeholder="#XXXXXX" value="#ffffff">
+      <br />
+      <span>Pattern size :</span>
+      <br />
+      <input class="settings-pattern-size" type="range" value="20" max="100" min="5" step="5">
+      <div id="submit-settings" class="button">Generate</div>
+    </div>
+
+    <!-- Include main app -->
+    <script type="text/javascript" src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+html, body   {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+/* Canvas */
+#canvas {
+  position: absolute;
+  left: 280px;
+  display: block;
+}
+
+/* Parameter styles */
+.settings {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 260px;
+  padding: 2.5%;
+
+  background-color: white;
+}
+
+/* Button style */
+.button {
+  padding: 5%;
+  margin: 5% 0;
+  text-align: center;
+  background-color: #7777cd;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #9999ef;
+}
+
+span {
+  font-weight: bold;
+}
+
+input {
+  margin: 15px 0;
+}
+
+/* Range input values */
+input[type="range"] {
+    position: relative;
+    margin-left: 1em;
+}
+input[type="range"]:after,
+input[type="range"]:before {
+    position: absolute;
+    top: 1em;
+    color: #aaa;
+}
+input[type="range"]:before {
+    left:0em;
+    content: attr(min);
+}
+input[type="range"]:after {
+    right: 0em;
+    content: attr(max);
+}
