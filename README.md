@@ -4,7 +4,7 @@ Pattern 10 is a pattern generator based on the print 10 concept of Commodor 64 B
 
 ## Use
 
-Download the repository and launch index.hmtl in a browser. Change the settings and click on *Generate* to create a new pattern.
+Download the repository and launch index.html in a browser. Change the settings and click on *Generate* to create a new pattern.
 
 ## Save pattern
 
